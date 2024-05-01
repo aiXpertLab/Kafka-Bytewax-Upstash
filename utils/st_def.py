@@ -40,9 +40,6 @@ def st_text_preprocessing_contents():
         - Perform Stemming and Lemmatization
     """)    
 
-def st_load_book():
-    st.image("./images/dataacquisition.png")
-
 def st_read_pdf():
     st.markdown("""
 Because OpenAI has a limit on the input prompt size, we would like to send the data to be summarized in parts. 
